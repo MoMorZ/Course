@@ -1,0 +1,21 @@
+#-----------------------------------------------------------
+# Vivado v2015.4 (64-bit)
+# SW Build 1412921 on Wed Nov 18 09:43:45 MST 2015
+# IP Build 1412160 on Tue Nov 17 13:47:24 MST 2015
+# Start of session at: Sun May 05 15:31:48 2019
+# Process ID: 15860
+# Current directory: C:/Users/HP/Desktop/学习/暂时不用/计组/计组实验/实验二/CPU/SCPU
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent9660 C:\Users\HP\Desktop\学习\暂时不用\计组\计组实验\实验二\CPU\SCPU\SCPU.xpr
+# Log file: C:/Users/HP/Desktop/学习/暂时不用/计组/计组实验/实验二/CPU/SCPU/vivado.log
+# Journal file: C:/Users/HP/Desktop/学习/暂时不用/计组/计组实验/实验二/CPU/SCPU\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/HP/Desktop/学习/暂时不用/计组/计组实验/实验二/CPU/SCPU/SCPU.xpr
+INFO: [Project 1-313] Project file moved from 'C:/Users/HP/Desktop/学习/计组/计组实验/实验二/CPU/SCPU' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2015.4/data/ip'.
+exit
+INFO: [Common 17-206] Exiting Vivado at Sun May 05 15:33:02 2019...

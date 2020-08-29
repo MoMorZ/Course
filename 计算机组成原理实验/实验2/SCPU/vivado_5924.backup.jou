@@ -1,0 +1,22 @@
+#-----------------------------------------------------------
+# Vivado v2015.2 (64-bit)
+# SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+# IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
+# Start of session at: Tue Nov 27 21:07:57 2018
+# Process ID: 5924
+# Log file: C:/SCPU/SCPU/vivado.log
+# Journal file: C:/SCPU/SCPU\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/SCPU/SCPU/SCPU.xpr
+launch_simulation
+source test2.tcl
+add_wave {{/test2/disaplay/scpu/CurPC}} {{/test2/disaplay/scpu/newPC}} {{/test2/disaplay/scpu/opCode}} {{/test2/disaplay/scpu/rs}} {{/test2/disaplay/scpu/rt}} {{/test2/disaplay/scpu/rd}} {{/test2/disaplay/scpu/immediate}} {{/test2/disaplay/scpu/sa}} {{/test2/disaplay/scpu/Data1}} {{/test2/disaplay/scpu/Data2}} {{/test2/disaplay/scpu/result}} {{/test2/disaplay/scpu/DataOut}} {{/test2/disaplay/scpu/DBout}} 
+restart
+add_wave {{/test2/disaplay/scpu/dataram/ram}} 
+restart
+run 3450 ns
+restart
+add_wave {{/test2/disaplay/scpu/regfile/regFile}} 
+run 1850 ns
+close_sim

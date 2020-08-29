@@ -1,0 +1,17 @@
+#-----------------------------------------------------------
+# Vivado v2015.4 (64-bit)
+# SW Build 1412921 on Wed Nov 18 09:43:45 MST 2015
+# IP Build 1412160 on Tue Nov 17 13:47:24 MST 2015
+# Start of session at: Sun Dec 09 21:54:17 2018
+# Process ID: 13788
+# Current directory: C:/Users/HP/Desktop/学习/计组/计组实验/实验三/MCPU
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent9512 C:\Users\HP\Desktop\学习\计组\计组实验\实验三\MCPU\MCPU.xpr
+# Log file: C:/Users/HP/Desktop/学习/计组/计组实验/实验三/MCPU/vivado.log
+# Journal file: C:/Users/HP/Desktop/学习/计组/计组实验/实验三/MCPU\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/HP/Desktop/学习/计组/计组实验/实验三/MCPU/MCPU.xpr
+launch_simulation
+open_wave_config C:/Users/HP/Desktop/学习/计组/计组实验/实验三/MCPU/test_behav.wcfg
+source test.tcl
+close_sim

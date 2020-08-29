@@ -1,0 +1,20 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  "../../../MCPU.srcs/sources_1/new/ControlUnit.v"
+verilog xil_defaultlib  "../../../MCPU.srcs/sources_1/new/TwoToOne.v"
+verilog xil_defaultlib  "../../../MCPU.srcs/sources_1/new/RegFile.v"
+verilog xil_defaultlib  "../../../MCPU.srcs/sources_1/new/PC.v"
+verilog xil_defaultlib  "../../../MCPU.srcs/sources_1/new/IR.v"
+verilog xil_defaultlib  "../../../MCPU.srcs/sources_1/new/InsRom.v"
+verilog xil_defaultlib  "../../../MCPU.srcs/sources_1/new/Get_newPC.v"
+verilog xil_defaultlib  "../../../MCPU.srcs/sources_1/new/Extend.v"
+verilog xil_defaultlib  "../../../MCPU.srcs/sources_1/new/DataReg.v"
+verilog xil_defaultlib  "../../../MCPU.srcs/sources_1/new/DataRam.v"
+verilog xil_defaultlib  "../../../MCPU.srcs/sources_1/new/ALU.v"
+verilog xil_defaultlib  "../../../MCPU.srcs/sources_1/new/MCPU.v"
+verilog xil_defaultlib  "../../../MCPU.srcs/sim_1/new/test.v"
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

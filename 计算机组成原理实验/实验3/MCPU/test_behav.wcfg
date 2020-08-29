@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="test_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="test" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="209041900fs"></ZoomStartTime>
+      <ZoomEndTime time="281041901fs"></ZoomEndTime>
+      <Cursor1Time time="735210000fs"></Cursor1Time>
+   </zoom_setting>
+   <WVObjectSize size="55" />
+   <wvobject db_ref_id="1" fp_name="/test/CLK" type="logic">
+      <obj_property name="ElementShortName">CLK</obj_property>
+      <obj_property name="ObjectShortName">CLK</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/test/btn" type="logic">
+      <obj_property name="ElementShortName">btn</obj_property>
+      <obj_property name="ObjectShortName">btn</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/test/Reset" type="logic">
+      <obj_property name="ElementShortName">Reset</obj_property>
+      <obj_property name="ObjectShortName">Reset</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/test/SW" type="array">
+      <obj_property name="ElementShortName">SW[1:0]</obj_property>
+      <obj_property name="ObjectShortName">SW[1:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/test/select" type="array">
+      <obj_property name="ElementShortName">select[3:0]</obj_property>
+      <obj_property name="ObjectShortName">select[3:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/test/dispcode" type="array">
+      <obj_property name="ElementShortName">dispcode[6:0]</obj_property>
+      <obj_property name="ObjectShortName">dispcode[6:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/test/count" type="array">
+      <obj_property name="ElementShortName">count[7:0]</obj_property>
+      <obj_property name="ObjectShortName">count[7:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/test/disaplay/xiaodou/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/test/disaplay/xiaodou/key_in" type="logic">
+      <obj_property name="ElementShortName">key_in</obj_property>
+      <obj_property name="ObjectShortName">key_in</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/test/disaplay/xiaodou/key_out" type="logic">
+      <obj_property name="ElementShortName">key_out</obj_property>
+      <obj_property name="ObjectShortName">key_out</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/test/disaplay/xiaodou/key_out_reg" type="logic">
+      <obj_property name="ElementShortName">key_out_reg</obj_property>
+      <obj_property name="ObjectShortName">key_out_reg</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/test/disaplay/xiaodou/count_low" type="array">
+      <obj_property name="ElementShortName">count_low[21:0]</obj_property>
+      <obj_property name="ObjectShortName">count_low[21:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/test/disaplay/xiaodou/count_high" type="array">
+      <obj_property name="ElementShortName">count_high[21:0]</obj_property>
+      <obj_property name="ObjectShortName">count_high[21:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/test/disaplay/xiaodou/SAMPLE_TIME" type="array">
+      <obj_property name="ElementShortName">SAMPLE_TIME[31:0]</obj_property>
+      <obj_property name="ObjectShortName">SAMPLE_TIME[31:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/test/disaplay/mcpu/CLK" type="logic">
+      <obj_property name="ElementShortName">CLK</obj_property>
+      <obj_property name="ObjectShortName">CLK</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/test/disaplay/mcpu/RST" type="logic">
+      <obj_property name="ElementShortName">RST</obj_property>
+      <obj_property name="ObjectShortName">RST</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/test/disaplay/mcpu/curState" type="array">
+      <obj_property name="ElementShortName">curState[2:0]</obj_property>
+      <obj_property name="ObjectShortName">curState[2:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/test/disaplay/mcpu/nextState" type="array">
+      <obj_property name="ElementShortName">nextState[2:0]</obj_property>
+      <obj_property name="ObjectShortName">nextState[2:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/test/disaplay/mcpu/CurPC" type="array">
+      <obj_property name="ElementShortName">CurPC[31:0]</obj_property>
+      <obj_property name="ObjectShortName">CurPC[31:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/test/disaplay/mcpu/newPC" type="array">
+      <obj_property name="ElementShortName">newPC[31:0]</obj_property>
+      <obj_property name="ObjectShortName">newPC[31:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/test/disaplay/mcpu/opCode" type="array">
+      <obj_property name="ElementShortName">opCode[5:0]</obj_property>
+      <obj_property name="ObjectShortName">opCode[5:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/test/disaplay/mcpu/rs" type="array">
+      <obj_property name="ElementShortName">rs[4:0]</obj_property>
+      <obj_property name="ObjectShortName">rs[4:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/test/disaplay/mcpu/rt" type="array">
+      <obj_property name="ElementShortName">rt[4:0]</obj_property>
+      <obj_property name="ObjectShortName">rt[4:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/test/disaplay/mcpu/rd" type="array">
+      <obj_property name="ElementShortName">rd[4:0]</obj_property>
+      <obj_property name="ObjectShortName">rd[4:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/test/disaplay/mcpu/immediate" type="array">
+      <obj_property name="ElementShortName">immediate[15:0]</obj_property>
+      <obj_property name="ObjectShortName">immediate[15:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/test/disaplay/mcpu/sa" type="array">
+      <obj_property name="ElementShortName">sa[4:0]</obj_property>
+      <obj_property name="ObjectShortName">sa[4:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/test/disaplay/mcpu/ADROut" type="array">
+      <obj_property name="ElementShortName">ADROut[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ADROut[31:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/test/disaplay/mcpu/BDROut" type="array">
+      <obj_property name="ElementShortName">BDROut[31:0]</obj_property>
+      <obj_property name="ObjectShortName">BDROut[31:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/test/disaplay/mcpu/ALUDROut" type="array">
+      <obj_property name="ElementShortName">ALUDROut[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ALUDROut[31:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/test/disaplay/mcpu/DataOut" type="array">
+      <obj_property name="ElementShortName">DataOut[31:0]</obj_property>
+      <obj_property name="ObjectShortName">DataOut[31:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/test/disaplay/mcpu/DBDROut" type="array">
+      <obj_property name="ElementShortName">DBDROut[31:0]</obj_property>
+      <obj_property name="ObjectShortName">DBDROut[31:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/test/disaplay/mcpu/DataToWrite" type="array">
+      <obj_property name="ElementShortName">DataToWrite[31:0]</obj_property>
+      <obj_property name="ObjectShortName">DataToWrite[31:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/test/disaplay/mcpu/Data1" type="array">
+      <obj_property name="ElementShortName">Data1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Data1[31:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/test/disaplay/mcpu/Data2" type="array">
+      <obj_property name="ElementShortName">Data2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Data2[31:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/test/disaplay/mcpu/zero" type="logic">
+      <obj_property name="ElementShortName">zero</obj_property>
+      <obj_property name="ObjectShortName">zero</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/test/disaplay/mcpu/sign" type="logic">
+      <obj_property name="ElementShortName">sign</obj_property>
+      <obj_property name="ObjectShortName">sign</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/test/disaplay/mcpu/PCWre" type="logic">
+      <obj_property name="ElementShortName">PCWre</obj_property>
+      <obj_property name="ObjectShortName">PCWre</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/test/disaplay/mcpu/ALUSrcA" type="logic">
+      <obj_property name="ElementShortName">ALUSrcA</obj_property>
+      <obj_property name="ObjectShortName">ALUSrcA</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/test/disaplay/mcpu/ALUSrcB" type="logic">
+      <obj_property name="ElementShortName">ALUSrcB</obj_property>
+      <obj_property name="ObjectShortName">ALUSrcB</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/test/disaplay/mcpu/DBDataSrc" type="logic">
+      <obj_property name="ElementShortName">DBDataSrc</obj_property>
+      <obj_property name="ObjectShortName">DBDataSrc</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/test/disaplay/mcpu/RegWre" type="logic">
+      <obj_property name="ElementShortName">RegWre</obj_property>
+      <obj_property name="ObjectShortName">RegWre</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/test/disaplay/mcpu/InsMemRW" type="logic">
+      <obj_property name="ElementShortName">InsMemRW</obj_property>
+      <obj_property name="ObjectShortName">InsMemRW</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/test/disaplay/mcpu/mRD" type="logic">
+      <obj_property name="ElementShortName">mRD</obj_property>
+      <obj_property name="ObjectShortName">mRD</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/test/disaplay/mcpu/mWR" type="logic">
+      <obj_property name="ElementShortName">mWR</obj_property>
+      <obj_property name="ObjectShortName">mWR</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/test/disaplay/mcpu/RegDst" type="array">
+      <obj_property name="ElementShortName">RegDst[1:0]</obj_property>
+      <obj_property name="ObjectShortName">RegDst[1:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/test/disaplay/mcpu/ExtSel" type="logic">
+      <obj_property name="ElementShortName">ExtSel</obj_property>
+      <obj_property name="ObjectShortName">ExtSel</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/test/disaplay/mcpu/ExtOut" type="array">
+      <obj_property name="ElementShortName">ExtOut[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ExtOut[31:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/test/disaplay/mcpu/JumpAddr" type="array">
+      <obj_property name="ElementShortName">JumpAddr[25:0]</obj_property>
+      <obj_property name="ObjectShortName">JumpAddr[25:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/test/disaplay/mcpu/PCSrc" type="array">
+      <obj_property name="ElementShortName">PCSrc[1:0]</obj_property>
+      <obj_property name="ObjectShortName">PCSrc[1:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/test/disaplay/mcpu/ALUOp" type="array">
+      <obj_property name="ElementShortName">ALUOp[2:0]</obj_property>
+      <obj_property name="ObjectShortName">ALUOp[2:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/test/disaplay/mcpu/InsDataOut" type="array">
+      <obj_property name="ElementShortName">InsDataOut[31:0]</obj_property>
+      <obj_property name="ObjectShortName">InsDataOut[31:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/test/disaplay/mcpu/DBDRIn" type="array">
+      <obj_property name="ElementShortName">DBDRIn[31:0]</obj_property>
+      <obj_property name="ObjectShortName">DBDRIn[31:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/test/disaplay/mcpu/result" type="array">
+      <obj_property name="ElementShortName">result[31:0]</obj_property>
+      <obj_property name="ObjectShortName">result[31:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/test/disaplay/mcpu/IRWre" type="logic">
+      <obj_property name="ElementShortName">IRWre</obj_property>
+      <obj_property name="ObjectShortName">IRWre</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/test/disaplay/mcpu/WrRegDSrc" type="logic">
+      <obj_property name="ElementShortName">WrRegDSrc</obj_property>
+      <obj_property name="ObjectShortName">WrRegDSrc</obj_property>
+   </wvobject>
+</wave_config>

@@ -1,0 +1,429 @@
+Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------------
+| Tool Version      : Vivado v.2015.2 (win64) Build 1266856 Fri Jun 26 16:35:25 MDT 2015
+| Date              : Tue Nov 27 21:03:44 2018
+| Host              : 008 running 64-bit Service Pack 1  (build 7601)
+| Command           : report_clock_utilization -file Display_clock_utilization_routed.rpt
+| Design            : Display
+| Device            : 7a35t-cpg236
+| Speed File        : -1  PRODUCTION 1.14 2014-09-11
+| Temperature Grade : C
+------------------------------------------------------------------------------------------
+
+Clock Utilization Report
+
+Table of Contents
+-----------------
+1. Clock Primitive Utilization
+2. Details of Global Clocks
+3. Details of Regional Clocks
+4. Details of Multi-Regional Clocks
+5. Details of I/O Clocks
+6. Details of Local Clocks
+7. Clock Regions : Key Resource Utilization
+8. Net wise resources used in clock region X0Y0
+9. Net wise resources used in clock region X1Y0
+
+1. Clock Primitive Utilization
+------------------------------
+
++-------+------+-----------+-----------+
+| Type  | Used | Available | Num Fixed |
++-------+------+-----------+-----------+
+| BUFG  |    2 |        32 |         0 |
+| BUFH  |    0 |        72 |         0 |
+| BUFIO |    0 |        20 |         0 |
+| MMCM  |    0 |         5 |         0 |
+| PLL   |    0 |         5 |         0 |
+| BUFR  |    0 |        20 |         0 |
+| BUFMR |    0 |        10 |         0 |
++-------+------+-----------+-----------+
+
+
+2. Details of Global Clocks
+---------------------------
+
++-------+-----------------------+------------------+--------------+-------+
+|       |                       |                  |   Num Loads  |       |
++-------+-----------------------+------------------+------+-------+-------+
+| Index | BUFG Cell             | Net Name         | BELs | Sites | Fixed |
++-------+-----------------------+------------------+------+-------+-------+
+|     1 | CLK_IBUF_BUFG_inst    | CLK_IBUF_BUFG    |   72 |    21 |    no |
+|     2 | key_out_reg_BUFG_inst | key_out_reg_BUFG |  109 |    16 |    no |
++-------+-----------------------+------------------+------+-------+-------+
+
+
+3. Details of Regional Clocks
+-----------------------------
+
+4. Details of Multi-Regional Clocks
+-----------------------------------
+
+5. Details of I/O Clocks
+------------------------
+
+6. Details of Local Clocks
+--------------------------
+
++-------+----------------------------+-----------------------------+--------------+-------+
+|       |                            |                             |   Num Loads  |       |
++-------+----------------------------+-----------------------------+------+-------+-------+
+| Index | Local Clk Src              | Net Name                    | BELs | Sites | Fixed |
++-------+----------------------------+-----------------------------+------+-------+-------+
+|     1 | clk_div/clk_sys_reg        | clk_div/CLK                 |    4 |     2 |    no |
+|     2 | co4/num_reg[3]_i_2         | co4/E[0]                    |    4 |     1 |    no |
+|     3 | scpu/pc/newPC_reg[7]_i_2   | scpu/pc/E[0]                |    7 |     3 |    no |
+|     4 | scpu/pc/ram_reg[9][7]_i_2  | scpu/pc/CurPC_reg[7]_101[0] |    8 |     3 |    no |
+|     5 | scpu/pc/ram_reg[10][7]_i_2 | scpu/pc/CurPC_reg[7]_103[0] |    8 |     3 |    no |
+|     6 | scpu/pc/ram_reg[11][7]_i_2 | scpu/pc/CurPC_reg[7]_105[0] |    8 |     6 |    no |
+|     7 | scpu/pc/ram_reg[12][7]_i_2 | scpu/pc/CurPC_reg[7]_107[0] |    8 |     5 |    no |
+|     8 | scpu/pc/ram_reg[13][7]_i_2 | scpu/pc/CurPC_reg[7]_109[0] |    8 |     4 |    no |
+|     9 | scpu/pc/ram_reg[14][7]_i_2 | scpu/pc/CurPC_reg[7]_111[0] |    8 |     4 |    no |
+|    10 | scpu/pc/ram_reg[15][7]_i_2 | scpu/pc/CurPC_reg[7]_113[0] |    8 |     3 |    no |
+|    11 | scpu/pc/ram_reg[16][7]_i_2 | scpu/pc/CurPC_reg[7]_115[0] |    8 |     5 |    no |
+|    12 | scpu/pc/ram_reg[17][7]_i_2 | scpu/pc/CurPC_reg[7]_117[0] |    8 |     5 |    no |
+|    13 | scpu/pc/ram_reg[18][7]_i_2 | scpu/pc/CurPC_reg[7]_119[0] |    8 |     3 |    no |
+|    14 | scpu/pc/ram_reg[19][7]_i_2 | scpu/pc/CurPC_reg[7]_121[0] |    8 |     5 |    no |
+|    15 | scpu/pc/ram_reg[20][7]_i_2 | scpu/pc/CurPC_reg[7]_123[0] |    8 |     3 |    no |
+|    16 | scpu/pc/ram_reg[21][7]_i_2 | scpu/pc/CurPC_reg[7]_125[0] |    8 |     4 |    no |
+|    17 | scpu/pc/ram_reg[22][7]_i_2 | scpu/pc/CurPC_reg[7]_127[0] |    8 |     3 |    no |
+|    18 | scpu/pc/ram_reg[23][7]_i_2 | scpu/pc/CurPC_reg[7]_129[0] |    8 |     3 |    no |
+|    19 | scpu/pc/ram_reg[24][7]_i_2 | scpu/pc/CurPC_reg[7]_131[0] |    8 |     4 |    no |
+|    20 | scpu/pc/ram_reg[25][7]_i_2 | scpu/pc/CurPC_reg[7]_133[0] |    8 |     3 |    no |
+|    21 | scpu/pc/ram_reg[26][7]_i_2 | scpu/pc/CurPC_reg[7]_135[0] |    8 |     3 |    no |
+|    22 | scpu/pc/ram_reg[27][7]_i_2 | scpu/pc/CurPC_reg[7]_137[0] |    8 |     3 |    no |
+|    23 | scpu/pc/ram_reg[28][7]_i_2 | scpu/pc/CurPC_reg[7]_139[0] |    8 |     3 |    no |
+|    24 | scpu/pc/ram_reg[29][7]_i_2 | scpu/pc/CurPC_reg[7]_141[0] |    8 |     4 |    no |
+|    25 | scpu/pc/ram_reg[30][7]_i_2 | scpu/pc/CurPC_reg[7]_143[0] |    8 |     4 |    no |
+|    26 | scpu/pc/ram_reg[31][7]_i_2 | scpu/pc/CurPC_reg[7]_144[0] |    8 |     4 |    no |
+|    27 | scpu/pc/ram_reg[0][7]_i_2  | scpu/pc/CurPC_reg[7]_84[0]  |    8 |     5 |    no |
+|    28 | scpu/pc/ram_reg[1][7]_i_2  | scpu/pc/CurPC_reg[7]_85[0]  |    8 |     4 |    no |
+|    29 | scpu/pc/ram_reg[2][7]_i_2  | scpu/pc/CurPC_reg[7]_87[0]  |    8 |     3 |    no |
+|    30 | scpu/pc/ram_reg[3][7]_i_2  | scpu/pc/CurPC_reg[7]_89[0]  |    8 |     4 |    no |
+|    31 | scpu/pc/ram_reg[4][7]_i_2  | scpu/pc/CurPC_reg[7]_91[0]  |    8 |     6 |    no |
+|    32 | scpu/pc/ram_reg[5][7]_i_2  | scpu/pc/CurPC_reg[7]_93[0]  |    8 |     4 |    no |
+|    33 | scpu/pc/ram_reg[6][7]_i_2  | scpu/pc/CurPC_reg[7]_95[0]  |    8 |     2 |    no |
+|    34 | scpu/pc/ram_reg[7][7]_i_2  | scpu/pc/CurPC_reg[7]_97[0]  |    8 |     4 |    no |
+|    35 | scpu/pc/ram_reg[8][7]_i_2  | scpu/pc/CurPC_reg[7]_99[0]  |    8 |     3 |    no |
++-------+----------------------------+-----------------------------+------+-------+-------+
+
+
+7. Clock Regions : Key Resource Utilization
+-------------------------------------------
+
++-------------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+
+|                   | Global Clock |     BUFRs    |    BUFMRs    |    BUFIOs    |     MMCM     |      PLL     |      GT      |      PCI     |    ILOGIC    |    OLOGIC    |      FF      |     LUTM     |    RAMB18    |    RAMB36    |    DSP48E1   |
++-------------------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+
+| Clock Region Name | Used | Avail | Used | Avail | Used | Avail | Used | Avail | Used | Avail | Used | Avail | Used | Avail | Used | Avail | Used | Avail | Used | Avail | Used | Avail | Used | Avail | Used | Avail | Used | Avail | Used | Avail |
++-------------------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+
+| X0Y0              |    1 |    12 |    0 |     4 |    0 |     2 |    0 |     4 |    0 |     1 |    0 |     1 |    0 |     0 |    0 |     0 |    0 |    50 |    0 |    50 |  131 |  9600 |    0 |  1600 |    0 |    20 |    0 |    10 |    0 |    20 |
+| X1Y0              |    2 |    12 |    0 |     4 |    0 |     2 |    0 |     4 |    0 |     1 |    0 |     1 |    0 |     0 |    0 |     0 |    0 |    50 |    0 |    50 |  256 | 12000 |   96 |  1800 |    0 |    40 |    0 |    20 |    0 |    20 |
+| X0Y1              |    0 |    12 |    0 |     4 |    0 |     2 |    0 |     4 |    0 |     1 |    0 |     1 |    0 |     0 |    0 |     0 |    0 |    50 |    0 |    50 |    0 |  9600 |    0 |  1600 |    0 |    20 |    0 |    10 |    0 |    20 |
+| X1Y1              |    0 |    12 |    0 |     4 |    0 |     2 |    0 |     4 |    0 |     1 |    0 |     1 |    0 |     0 |    0 |     0 |    0 |    50 |    0 |    50 |    0 | 12000 |    0 |  1800 |    0 |    40 |    0 |    20 |    0 |    20 |
+| X0Y2              |    0 |    12 |    0 |     4 |    0 |     2 |    0 |     4 |    0 |     1 |    0 |     1 |    0 |     0 |    0 |     0 |    0 |    50 |    0 |    50 |    0 | 14400 |    0 |  1600 |    0 |    20 |    0 |    10 |    0 |    20 |
+| X1Y2              |    0 |    12 |    0 |     0 |    0 |     0 |    0 |     0 |    0 |     0 |    0 |     0 |    0 |     5 |    0 |     1 |    0 |     0 |    0 |     0 |    0 |  7600 |    0 |  1200 |    0 |    10 |    0 |     5 |    0 |    20 |
++-------------------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+
+* RAMB36 site can be used as two RAMB18/FIFO18 sites.
+
+
+8. Net wise resources used in clock region X0Y0
+-----------------------------------------------
+
++-------------+-------------+-------+-----------+----------+---------+-----------+---------+---------+-----+-------+----------+----------------+
+| Source Type | BUFHCE Site | Fixed | MMCM Pins | PLL Pins | GT Pins | BRAM Pins | ILOGICs | OLOGICs | FFs | LUTMs | DSP48E1s | Clock Net Name |
++-------------+-------------+-------+-----------+----------+---------+-----------+---------+---------+-----+-------+----------+----------------+
+| BUFG        | BUFHCE_X0Y8 |   no  |         0 |        0 |       0 |         0 |       0 |       0 |  45 |     0 |        0 | CLK_IBUF_BUFG  |
++-------------+-------------+-------+-----------+----------+---------+-----------+---------+---------+-----+-------+----------+----------------+
+
+
+9. Net wise resources used in clock region X1Y0
+-----------------------------------------------
+
++-------------+-------------+-------+-----------+----------+---------+-----------+---------+---------+-----+-------+----------+------------------+
+| Source Type | BUFHCE Site | Fixed | MMCM Pins | PLL Pins | GT Pins | BRAM Pins | ILOGICs | OLOGICs | FFs | LUTMs | DSP48E1s |  Clock Net Name  |
++-------------+-------------+-------+-----------+----------+---------+-----------+---------+---------+-----+-------+----------+------------------+
+| BUFG        | BUFHCE_X1Y8 |   no  |         0 |        0 |       0 |         0 |       0 |       0 |  13 |    96 |        0 | key_out_reg_BUFG |
+| BUFG        | BUFHCE_X1Y9 |   no  |         0 |        0 |       0 |         0 |       0 |       0 |  27 |     0 |        0 | CLK_IBUF_BUFG    |
++-------------+-------------+-------+-----------+----------+---------+-----------+---------+---------+-----+-------+----------+------------------+
+
+
+
+# Location of BUFG Primitives 
+set_property LOC BUFGCTRL_X0Y1 [get_cells CLK_IBUF_BUFG_inst]
+set_property LOC BUFGCTRL_X0Y0 [get_cells key_out_reg_BUFG_inst]
+
+# Location of IO Clock Primitives
+
+# Location of MMCM Clock Primitives
+
+# Location of BUFH Clock Primitives
+
+# Location of BUFR Clock Primitives
+
+# Location of BUFMR Clock Primitives
+
+# Location of PLL Clock Primitives
+
+# Location of IO Primitives which is load of clock spine
+
+# Location of clock ports
+set_property LOC IOB_X1Y26 [get_ports CLK]
+
+# Clock net "CLK_IBUF_BUFG" driven by instance "CLK_IBUF_BUFG_inst" located at site "BUFGCTRL_X0Y1"
+#startgroup
+create_pblock {CLKAG_CLK_IBUF_BUFG}
+add_cells_to_pblock [get_pblocks  {CLKAG_CLK_IBUF_BUFG}] [get_cells -filter { PRIMITIVE_GROUP != I/O && IS_PRIMITIVE==1 && PRIMITIVE_LEVEL !=INTERNAL } -of_object [get_pins -filter {DIRECTION==IN} -of_objects [get_nets -hierarchical -filter {PARENT=="CLK_IBUF_BUFG"}]]]
+resize_pblock [get_pblocks {CLKAG_CLK_IBUF_BUFG}] -add {CLOCKREGION_X0Y0:CLOCKREGION_X0Y0 CLOCKREGION_X1Y0:CLOCKREGION_X1Y0}
+#endgroup
+
+# Clock net "clk_div/CLK" driven by instance "clk_div/clk_sys_reg" located at site "SLICE_X62Y21"
+#startgroup
+create_pblock {CLKAG_clk_div/CLK}
+add_cells_to_pblock [get_pblocks  {CLKAG_clk_div/CLK}] [get_cells -filter { PRIMITIVE_GROUP != I/O && IS_PRIMITIVE==1 && PRIMITIVE_LEVEL !=INTERNAL } -of_object [get_pins -filter {DIRECTION==IN} -of_objects [get_nets -hierarchical -filter {PARENT=="clk_div/CLK"}]]]
+resize_pblock [get_pblocks {CLKAG_clk_div/CLK}] -add {CLOCKREGION_X1Y0:CLOCKREGION_X1Y0}
+#endgroup
+
+# Clock net "co4/E[0]" driven by instance "co4/num_reg[3]_i_2" located at site "SLICE_X64Y20"
+#startgroup
+create_pblock {CLKAG_co4/E[0]}
+add_cells_to_pblock [get_pblocks  {CLKAG_co4/E[0]}] [get_cells -filter { PRIMITIVE_GROUP != I/O && IS_PRIMITIVE==1 && PRIMITIVE_LEVEL !=INTERNAL } -of_object [get_pins -filter {DIRECTION==IN} -of_objects [get_nets -hierarchical -filter {PARENT=="co4/E[0]"}]]]
+resize_pblock [get_pblocks {CLKAG_co4/E[0]}] -add {CLOCKREGION_X1Y0:CLOCKREGION_X1Y0}
+#endgroup
+
+# Clock net "key_out_reg_BUFG" driven by instance "key_out_reg_BUFG_inst" located at site "BUFGCTRL_X0Y0"
+#startgroup
+create_pblock {CLKAG_key_out_reg_BUFG}
+add_cells_to_pblock [get_pblocks  {CLKAG_key_out_reg_BUFG}] [get_cells -filter { PRIMITIVE_GROUP != I/O && IS_PRIMITIVE==1 && PRIMITIVE_LEVEL !=INTERNAL } -of_object [get_pins -filter {DIRECTION==IN} -of_objects [get_nets -hierarchical -filter {PARENT=="key_out_reg_BUFG"}]]]
+resize_pblock [get_pblocks {CLKAG_key_out_reg_BUFG}] -add {CLOCKREGION_X1Y0:CLOCKREGION_X1Y0}
+#endgroup
+
+# Clock net "scpu/pc/CurPC_reg[7]_101[0]" driven by instance "scpu/pc/ram_reg[9][7]_i_2" located at site "SLICE_X38Y19"
+#startgroup
+create_pblock {CLKAG_scpu/pc/CurPC_reg[7]_101[0]}
+add_cells_to_pblock [get_pblocks  {CLKAG_scpu/pc/CurPC_reg[7]_101[0]}] [get_cells -filter { PRIMITIVE_GROUP != I/O && IS_PRIMITIVE==1 && PRIMITIVE_LEVEL !=INTERNAL } -of_object [get_pins -filter {DIRECTION==IN} -of_objects [get_nets -hierarchical -filter {PARENT=="scpu/pc/CurPC_reg[7]_101[0]"}]]]
+resize_pblock [get_pblocks {CLKAG_scpu/pc/CurPC_reg[7]_101[0]}] -add {CLOCKREGION_X1Y0:CLOCKREGION_X1Y0}
+#endgroup
+
+# Clock net "scpu/pc/CurPC_reg[7]_103[0]" driven by instance "scpu/pc/ram_reg[10][7]_i_2" located at site "SLICE_X40Y23"
+#startgroup
+create_pblock {CLKAG_scpu/pc/CurPC_reg[7]_103[0]}
+add_cells_to_pblock [get_pblocks  {CLKAG_scpu/pc/CurPC_reg[7]_103[0]}] [get_cells -filter { PRIMITIVE_GROUP != I/O && IS_PRIMITIVE==1 && PRIMITIVE_LEVEL !=INTERNAL } -of_object [get_pins -filter {DIRECTION==IN} -of_objects [get_nets -hierarchical -filter {PARENT=="scpu/pc/CurPC_reg[7]_103[0]"}]]]
+resize_pblock [get_pblocks {CLKAG_scpu/pc/CurPC_reg[7]_103[0]}] -add {CLOCKREGION_X1Y0:CLOCKREGION_X1Y0}
+#endgroup
+
+# Clock net "scpu/pc/CurPC_reg[7]_105[0]" driven by instance "scpu/pc/ram_reg[11][7]_i_2" located at site "SLICE_X41Y12"
+#startgroup
+create_pblock {CLKAG_scpu/pc/CurPC_reg[7]_105[0]}
+add_cells_to_pblock [get_pblocks  {CLKAG_scpu/pc/CurPC_reg[7]_105[0]}] [get_cells -filter { PRIMITIVE_GROUP != I/O && IS_PRIMITIVE==1 && PRIMITIVE_LEVEL !=INTERNAL } -of_object [get_pins -filter {DIRECTION==IN} -of_objects [get_nets -hierarchical -filter {PARENT=="scpu/pc/CurPC_reg[7]_105[0]"}]]]
+resize_pblock [get_pblocks {CLKAG_scpu/pc/CurPC_reg[7]_105[0]}] -add {CLOCKREGION_X0Y0:CLOCKREGION_X0Y0 CLOCKREGION_X1Y0:CLOCKREGION_X1Y0}
+#endgroup
+
+# Clock net "scpu/pc/CurPC_reg[7]_107[0]" driven by instance "scpu/pc/ram_reg[12][7]_i_2" located at site "SLICE_X38Y21"
+#startgroup
+create_pblock {CLKAG_scpu/pc/CurPC_reg[7]_107[0]}
+add_cells_to_pblock [get_pblocks  {CLKAG_scpu/pc/CurPC_reg[7]_107[0]}] [get_cells -filter { PRIMITIVE_GROUP != I/O && IS_PRIMITIVE==1 && PRIMITIVE_LEVEL !=INTERNAL } -of_object [get_pins -filter {DIRECTION==IN} -of_objects [get_nets -hierarchical -filter {PARENT=="scpu/pc/CurPC_reg[7]_107[0]"}]]]
+resize_pblock [get_pblocks {CLKAG_scpu/pc/CurPC_reg[7]_107[0]}] -add {CLOCKREGION_X1Y0:CLOCKREGION_X1Y0}
+#endgroup
+
+# Clock net "scpu/pc/CurPC_reg[7]_109[0]" driven by instance "scpu/pc/ram_reg[13][7]_i_2" located at site "SLICE_X41Y22"
+#startgroup
+create_pblock {CLKAG_scpu/pc/CurPC_reg[7]_109[0]}
+add_cells_to_pblock [get_pblocks  {CLKAG_scpu/pc/CurPC_reg[7]_109[0]}] [get_cells -filter { PRIMITIVE_GROUP != I/O && IS_PRIMITIVE==1 && PRIMITIVE_LEVEL !=INTERNAL } -of_object [get_pins -filter {DIRECTION==IN} -of_objects [get_nets -hierarchical -filter {PARENT=="scpu/pc/CurPC_reg[7]_109[0]"}]]]
+resize_pblock [get_pblocks {CLKAG_scpu/pc/CurPC_reg[7]_109[0]}] -add {CLOCKREGION_X1Y0:CLOCKREGION_X1Y0}
+#endgroup
+
+# Clock net "scpu/pc/CurPC_reg[7]_111[0]" driven by instance "scpu/pc/ram_reg[14][7]_i_2" located at site "SLICE_X42Y13"
+#startgroup
+create_pblock {CLKAG_scpu/pc/CurPC_reg[7]_111[0]}
+add_cells_to_pblock [get_pblocks  {CLKAG_scpu/pc/CurPC_reg[7]_111[0]}] [get_cells -filter { PRIMITIVE_GROUP != I/O && IS_PRIMITIVE==1 && PRIMITIVE_LEVEL !=INTERNAL } -of_object [get_pins -filter {DIRECTION==IN} -of_objects [get_nets -hierarchical -filter {PARENT=="scpu/pc/CurPC_reg[7]_111[0]"}]]]
+resize_pblock [get_pblocks {CLKAG_scpu/pc/CurPC_reg[7]_111[0]}] -add {CLOCKREGION_X1Y0:CLOCKREGION_X1Y0}
+#endgroup
+
+# Clock net "scpu/pc/CurPC_reg[7]_113[0]" driven by instance "scpu/pc/ram_reg[15][7]_i_2" located at site "SLICE_X45Y13"
+#startgroup
+create_pblock {CLKAG_scpu/pc/CurPC_reg[7]_113[0]}
+add_cells_to_pblock [get_pblocks  {CLKAG_scpu/pc/CurPC_reg[7]_113[0]}] [get_cells -filter { PRIMITIVE_GROUP != I/O && IS_PRIMITIVE==1 && PRIMITIVE_LEVEL !=INTERNAL } -of_object [get_pins -filter {DIRECTION==IN} -of_objects [get_nets -hierarchical -filter {PARENT=="scpu/pc/CurPC_reg[7]_113[0]"}]]]
+resize_pblock [get_pblocks {CLKAG_scpu/pc/CurPC_reg[7]_113[0]}] -add {CLOCKREGION_X1Y0:CLOCKREGION_X1Y0}
+#endgroup
+
+# Clock net "scpu/pc/CurPC_reg[7]_115[0]" driven by instance "scpu/pc/ram_reg[16][7]_i_2" located at site "SLICE_X41Y10"
+#startgroup
+create_pblock {CLKAG_scpu/pc/CurPC_reg[7]_115[0]}
+add_cells_to_pblock [get_pblocks  {CLKAG_scpu/pc/CurPC_reg[7]_115[0]}] [get_cells -filter { PRIMITIVE_GROUP != I/O && IS_PRIMITIVE==1 && PRIMITIVE_LEVEL !=INTERNAL } -of_object [get_pins -filter {DIRECTION==IN} -of_objects [get_nets -hierarchical -filter {PARENT=="scpu/pc/CurPC_reg[7]_115[0]"}]]]
+resize_pblock [get_pblocks {CLKAG_scpu/pc/CurPC_reg[7]_115[0]}] -add {CLOCKREGION_X0Y0:CLOCKREGION_X0Y0 CLOCKREGION_X1Y0:CLOCKREGION_X1Y0}
+#endgroup
+
+# Clock net "scpu/pc/CurPC_reg[7]_117[0]" driven by instance "scpu/pc/ram_reg[17][7]_i_2" located at site "SLICE_X39Y7"
+#startgroup
+create_pblock {CLKAG_scpu/pc/CurPC_reg[7]_117[0]}
+add_cells_to_pblock [get_pblocks  {CLKAG_scpu/pc/CurPC_reg[7]_117[0]}] [get_cells -filter { PRIMITIVE_GROUP != I/O && IS_PRIMITIVE==1 && PRIMITIVE_LEVEL !=INTERNAL } -of_object [get_pins -filter {DIRECTION==IN} -of_objects [get_nets -hierarchical -filter {PARENT=="scpu/pc/CurPC_reg[7]_117[0]"}]]]
+resize_pblock [get_pblocks {CLKAG_scpu/pc/CurPC_reg[7]_117[0]}] -add {CLOCKREGION_X0Y0:CLOCKREGION_X0Y0 CLOCKREGION_X1Y0:CLOCKREGION_X1Y0}
+#endgroup
+
+# Clock net "scpu/pc/CurPC_reg[7]_119[0]" driven by instance "scpu/pc/ram_reg[18][7]_i_2" located at site "SLICE_X40Y7"
+#startgroup
+create_pblock {CLKAG_scpu/pc/CurPC_reg[7]_119[0]}
+add_cells_to_pblock [get_pblocks  {CLKAG_scpu/pc/CurPC_reg[7]_119[0]}] [get_cells -filter { PRIMITIVE_GROUP != I/O && IS_PRIMITIVE==1 && PRIMITIVE_LEVEL !=INTERNAL } -of_object [get_pins -filter {DIRECTION==IN} -of_objects [get_nets -hierarchical -filter {PARENT=="scpu/pc/CurPC_reg[7]_119[0]"}]]]
+resize_pblock [get_pblocks {CLKAG_scpu/pc/CurPC_reg[7]_119[0]}] -add {CLOCKREGION_X0Y0:CLOCKREGION_X0Y0}
+#endgroup
+
+# Clock net "scpu/pc/CurPC_reg[7]_121[0]" driven by instance "scpu/pc/ram_reg[19][7]_i_2" located at site "SLICE_X37Y10"
+#startgroup
+create_pblock {CLKAG_scpu/pc/CurPC_reg[7]_121[0]}
+add_cells_to_pblock [get_pblocks  {CLKAG_scpu/pc/CurPC_reg[7]_121[0]}] [get_cells -filter { PRIMITIVE_GROUP != I/O && IS_PRIMITIVE==1 && PRIMITIVE_LEVEL !=INTERNAL } -of_object [get_pins -filter {DIRECTION==IN} -of_objects [get_nets -hierarchical -filter {PARENT=="scpu/pc/CurPC_reg[7]_121[0]"}]]]
+resize_pblock [get_pblocks {CLKAG_scpu/pc/CurPC_reg[7]_121[0]}] -add {CLOCKREGION_X0Y0:CLOCKREGION_X0Y0 CLOCKREGION_X1Y0:CLOCKREGION_X1Y0}
+#endgroup
+
+# Clock net "scpu/pc/CurPC_reg[7]_123[0]" driven by instance "scpu/pc/ram_reg[20][7]_i_2" located at site "SLICE_X38Y8"
+#startgroup
+create_pblock {CLKAG_scpu/pc/CurPC_reg[7]_123[0]}
+add_cells_to_pblock [get_pblocks  {CLKAG_scpu/pc/CurPC_reg[7]_123[0]}] [get_cells -filter { PRIMITIVE_GROUP != I/O && IS_PRIMITIVE==1 && PRIMITIVE_LEVEL !=INTERNAL } -of_object [get_pins -filter {DIRECTION==IN} -of_objects [get_nets -hierarchical -filter {PARENT=="scpu/pc/CurPC_reg[7]_123[0]"}]]]
+resize_pblock [get_pblocks {CLKAG_scpu/pc/CurPC_reg[7]_123[0]}] -add {CLOCKREGION_X0Y0:CLOCKREGION_X0Y0 CLOCKREGION_X1Y0:CLOCKREGION_X1Y0}
+#endgroup
+
+# Clock net "scpu/pc/CurPC_reg[7]_125[0]" driven by instance "scpu/pc/ram_reg[21][7]_i_2" located at site "SLICE_X42Y7"
+#startgroup
+create_pblock {CLKAG_scpu/pc/CurPC_reg[7]_125[0]}
+add_cells_to_pblock [get_pblocks  {CLKAG_scpu/pc/CurPC_reg[7]_125[0]}] [get_cells -filter { PRIMITIVE_GROUP != I/O && IS_PRIMITIVE==1 && PRIMITIVE_LEVEL !=INTERNAL } -of_object [get_pins -filter {DIRECTION==IN} -of_objects [get_nets -hierarchical -filter {PARENT=="scpu/pc/CurPC_reg[7]_125[0]"}]]]
+resize_pblock [get_pblocks {CLKAG_scpu/pc/CurPC_reg[7]_125[0]}] -add {CLOCKREGION_X1Y0:CLOCKREGION_X1Y0}
+#endgroup
+
+# Clock net "scpu/pc/CurPC_reg[7]_127[0]" driven by instance "scpu/pc/ram_reg[22][7]_i_2" located at site "SLICE_X45Y8"
+#startgroup
+create_pblock {CLKAG_scpu/pc/CurPC_reg[7]_127[0]}
+add_cells_to_pblock [get_pblocks  {CLKAG_scpu/pc/CurPC_reg[7]_127[0]}] [get_cells -filter { PRIMITIVE_GROUP != I/O && IS_PRIMITIVE==1 && PRIMITIVE_LEVEL !=INTERNAL } -of_object [get_pins -filter {DIRECTION==IN} -of_objects [get_nets -hierarchical -filter {PARENT=="scpu/pc/CurPC_reg[7]_127[0]"}]]]
+resize_pblock [get_pblocks {CLKAG_scpu/pc/CurPC_reg[7]_127[0]}] -add {CLOCKREGION_X1Y0:CLOCKREGION_X1Y0}
+#endgroup
+
+# Clock net "scpu/pc/CurPC_reg[7]_129[0]" driven by instance "scpu/pc/ram_reg[23][7]_i_2" located at site "SLICE_X43Y9"
+#startgroup
+create_pblock {CLKAG_scpu/pc/CurPC_reg[7]_129[0]}
+add_cells_to_pblock [get_pblocks  {CLKAG_scpu/pc/CurPC_reg[7]_129[0]}] [get_cells -filter { PRIMITIVE_GROUP != I/O && IS_PRIMITIVE==1 && PRIMITIVE_LEVEL !=INTERNAL } -of_object [get_pins -filter {DIRECTION==IN} -of_objects [get_nets -hierarchical -filter {PARENT=="scpu/pc/CurPC_reg[7]_129[0]"}]]]
+resize_pblock [get_pblocks {CLKAG_scpu/pc/CurPC_reg[7]_129[0]}] -add {CLOCKREGION_X1Y0:CLOCKREGION_X1Y0}
+#endgroup
+
+# Clock net "scpu/pc/CurPC_reg[7]_131[0]" driven by instance "scpu/pc/ram_reg[24][7]_i_2" located at site "SLICE_X48Y8"
+#startgroup
+create_pblock {CLKAG_scpu/pc/CurPC_reg[7]_131[0]}
+add_cells_to_pblock [get_pblocks  {CLKAG_scpu/pc/CurPC_reg[7]_131[0]}] [get_cells -filter { PRIMITIVE_GROUP != I/O && IS_PRIMITIVE==1 && PRIMITIVE_LEVEL !=INTERNAL } -of_object [get_pins -filter {DIRECTION==IN} -of_objects [get_nets -hierarchical -filter {PARENT=="scpu/pc/CurPC_reg[7]_131[0]"}]]]
+resize_pblock [get_pblocks {CLKAG_scpu/pc/CurPC_reg[7]_131[0]}] -add {CLOCKREGION_X1Y0:CLOCKREGION_X1Y0}
+#endgroup
+
+# Clock net "scpu/pc/CurPC_reg[7]_133[0]" driven by instance "scpu/pc/ram_reg[25][7]_i_2" located at site "SLICE_X47Y7"
+#startgroup
+create_pblock {CLKAG_scpu/pc/CurPC_reg[7]_133[0]}
+add_cells_to_pblock [get_pblocks  {CLKAG_scpu/pc/CurPC_reg[7]_133[0]}] [get_cells -filter { PRIMITIVE_GROUP != I/O && IS_PRIMITIVE==1 && PRIMITIVE_LEVEL !=INTERNAL } -of_object [get_pins -filter {DIRECTION==IN} -of_objects [get_nets -hierarchical -filter {PARENT=="scpu/pc/CurPC_reg[7]_133[0]"}]]]
+resize_pblock [get_pblocks {CLKAG_scpu/pc/CurPC_reg[7]_133[0]}] -add {CLOCKREGION_X1Y0:CLOCKREGION_X1Y0}
+#endgroup
+
+# Clock net "scpu/pc/CurPC_reg[7]_135[0]" driven by instance "scpu/pc/ram_reg[26][7]_i_2" located at site "SLICE_X46Y7"
+#startgroup
+create_pblock {CLKAG_scpu/pc/CurPC_reg[7]_135[0]}
+add_cells_to_pblock [get_pblocks  {CLKAG_scpu/pc/CurPC_reg[7]_135[0]}] [get_cells -filter { PRIMITIVE_GROUP != I/O && IS_PRIMITIVE==1 && PRIMITIVE_LEVEL !=INTERNAL } -of_object [get_pins -filter {DIRECTION==IN} -of_objects [get_nets -hierarchical -filter {PARENT=="scpu/pc/CurPC_reg[7]_135[0]"}]]]
+resize_pblock [get_pblocks {CLKAG_scpu/pc/CurPC_reg[7]_135[0]}] -add {CLOCKREGION_X1Y0:CLOCKREGION_X1Y0}
+#endgroup
+
+# Clock net "scpu/pc/CurPC_reg[7]_137[0]" driven by instance "scpu/pc/ram_reg[27][7]_i_2" located at site "SLICE_X48Y9"
+#startgroup
+create_pblock {CLKAG_scpu/pc/CurPC_reg[7]_137[0]}
+add_cells_to_pblock [get_pblocks  {CLKAG_scpu/pc/CurPC_reg[7]_137[0]}] [get_cells -filter { PRIMITIVE_GROUP != I/O && IS_PRIMITIVE==1 && PRIMITIVE_LEVEL !=INTERNAL } -of_object [get_pins -filter {DIRECTION==IN} -of_objects [get_nets -hierarchical -filter {PARENT=="scpu/pc/CurPC_reg[7]_137[0]"}]]]
+resize_pblock [get_pblocks {CLKAG_scpu/pc/CurPC_reg[7]_137[0]}] -add {CLOCKREGION_X1Y0:CLOCKREGION_X1Y0}
+#endgroup
+
+# Clock net "scpu/pc/CurPC_reg[7]_139[0]" driven by instance "scpu/pc/ram_reg[28][7]_i_2" located at site "SLICE_X48Y7"
+#startgroup
+create_pblock {CLKAG_scpu/pc/CurPC_reg[7]_139[0]}
+add_cells_to_pblock [get_pblocks  {CLKAG_scpu/pc/CurPC_reg[7]_139[0]}] [get_cells -filter { PRIMITIVE_GROUP != I/O && IS_PRIMITIVE==1 && PRIMITIVE_LEVEL !=INTERNAL } -of_object [get_pins -filter {DIRECTION==IN} -of_objects [get_nets -hierarchical -filter {PARENT=="scpu/pc/CurPC_reg[7]_139[0]"}]]]
+resize_pblock [get_pblocks {CLKAG_scpu/pc/CurPC_reg[7]_139[0]}] -add {CLOCKREGION_X1Y0:CLOCKREGION_X1Y0}
+#endgroup
+
+# Clock net "scpu/pc/CurPC_reg[7]_141[0]" driven by instance "scpu/pc/ram_reg[29][7]_i_2" located at site "SLICE_X49Y9"
+#startgroup
+create_pblock {CLKAG_scpu/pc/CurPC_reg[7]_141[0]}
+add_cells_to_pblock [get_pblocks  {CLKAG_scpu/pc/CurPC_reg[7]_141[0]}] [get_cells -filter { PRIMITIVE_GROUP != I/O && IS_PRIMITIVE==1 && PRIMITIVE_LEVEL !=INTERNAL } -of_object [get_pins -filter {DIRECTION==IN} -of_objects [get_nets -hierarchical -filter {PARENT=="scpu/pc/CurPC_reg[7]_141[0]"}]]]
+resize_pblock [get_pblocks {CLKAG_scpu/pc/CurPC_reg[7]_141[0]}] -add {CLOCKREGION_X1Y0:CLOCKREGION_X1Y0}
+#endgroup
+
+# Clock net "scpu/pc/CurPC_reg[7]_143[0]" driven by instance "scpu/pc/ram_reg[30][7]_i_2" located at site "SLICE_X50Y11"
+#startgroup
+create_pblock {CLKAG_scpu/pc/CurPC_reg[7]_143[0]}
+add_cells_to_pblock [get_pblocks  {CLKAG_scpu/pc/CurPC_reg[7]_143[0]}] [get_cells -filter { PRIMITIVE_GROUP != I/O && IS_PRIMITIVE==1 && PRIMITIVE_LEVEL !=INTERNAL } -of_object [get_pins -filter {DIRECTION==IN} -of_objects [get_nets -hierarchical -filter {PARENT=="scpu/pc/CurPC_reg[7]_143[0]"}]]]
+resize_pblock [get_pblocks {CLKAG_scpu/pc/CurPC_reg[7]_143[0]}] -add {CLOCKREGION_X1Y0:CLOCKREGION_X1Y0}
+#endgroup
+
+# Clock net "scpu/pc/CurPC_reg[7]_144[0]" driven by instance "scpu/pc/ram_reg[31][7]_i_2" located at site "SLICE_X49Y11"
+#startgroup
+create_pblock {CLKAG_scpu/pc/CurPC_reg[7]_144[0]}
+add_cells_to_pblock [get_pblocks  {CLKAG_scpu/pc/CurPC_reg[7]_144[0]}] [get_cells -filter { PRIMITIVE_GROUP != I/O && IS_PRIMITIVE==1 && PRIMITIVE_LEVEL !=INTERNAL } -of_object [get_pins -filter {DIRECTION==IN} -of_objects [get_nets -hierarchical -filter {PARENT=="scpu/pc/CurPC_reg[7]_144[0]"}]]]
+resize_pblock [get_pblocks {CLKAG_scpu/pc/CurPC_reg[7]_144[0]}] -add {CLOCKREGION_X1Y0:CLOCKREGION_X1Y0}
+#endgroup
+
+# Clock net "scpu/pc/CurPC_reg[7]_84[0]" driven by instance "scpu/pc/ram_reg[0][7]_i_2" located at site "SLICE_X46Y16"
+#startgroup
+create_pblock {CLKAG_scpu/pc/CurPC_reg[7]_84[0]}
+add_cells_to_pblock [get_pblocks  {CLKAG_scpu/pc/CurPC_reg[7]_84[0]}] [get_cells -filter { PRIMITIVE_GROUP != I/O && IS_PRIMITIVE==1 && PRIMITIVE_LEVEL !=INTERNAL } -of_object [get_pins -filter {DIRECTION==IN} -of_objects [get_nets -hierarchical -filter {PARENT=="scpu/pc/CurPC_reg[7]_84[0]"}]]]
+resize_pblock [get_pblocks {CLKAG_scpu/pc/CurPC_reg[7]_84[0]}] -add {CLOCKREGION_X0Y0:CLOCKREGION_X0Y0 CLOCKREGION_X1Y0:CLOCKREGION_X1Y0}
+#endgroup
+
+# Clock net "scpu/pc/CurPC_reg[7]_85[0]" driven by instance "scpu/pc/ram_reg[1][7]_i_2" located at site "SLICE_X38Y23"
+#startgroup
+create_pblock {CLKAG_scpu/pc/CurPC_reg[7]_85[0]}
+add_cells_to_pblock [get_pblocks  {CLKAG_scpu/pc/CurPC_reg[7]_85[0]}] [get_cells -filter { PRIMITIVE_GROUP != I/O && IS_PRIMITIVE==1 && PRIMITIVE_LEVEL !=INTERNAL } -of_object [get_pins -filter {DIRECTION==IN} -of_objects [get_nets -hierarchical -filter {PARENT=="scpu/pc/CurPC_reg[7]_85[0]"}]]]
+resize_pblock [get_pblocks {CLKAG_scpu/pc/CurPC_reg[7]_85[0]}] -add {CLOCKREGION_X0Y0:CLOCKREGION_X0Y0 CLOCKREGION_X1Y0:CLOCKREGION_X1Y0}
+#endgroup
+
+# Clock net "scpu/pc/CurPC_reg[7]_87[0]" driven by instance "scpu/pc/ram_reg[2][7]_i_2" located at site "SLICE_X38Y22"
+#startgroup
+create_pblock {CLKAG_scpu/pc/CurPC_reg[7]_87[0]}
+add_cells_to_pblock [get_pblocks  {CLKAG_scpu/pc/CurPC_reg[7]_87[0]}] [get_cells -filter { PRIMITIVE_GROUP != I/O && IS_PRIMITIVE==1 && PRIMITIVE_LEVEL !=INTERNAL } -of_object [get_pins -filter {DIRECTION==IN} -of_objects [get_nets -hierarchical -filter {PARENT=="scpu/pc/CurPC_reg[7]_87[0]"}]]]
+resize_pblock [get_pblocks {CLKAG_scpu/pc/CurPC_reg[7]_87[0]}] -add {CLOCKREGION_X0Y0:CLOCKREGION_X0Y0 CLOCKREGION_X1Y0:CLOCKREGION_X1Y0}
+#endgroup
+
+# Clock net "scpu/pc/CurPC_reg[7]_89[0]" driven by instance "scpu/pc/ram_reg[3][7]_i_2" located at site "SLICE_X39Y17"
+#startgroup
+create_pblock {CLKAG_scpu/pc/CurPC_reg[7]_89[0]}
+add_cells_to_pblock [get_pblocks  {CLKAG_scpu/pc/CurPC_reg[7]_89[0]}] [get_cells -filter { PRIMITIVE_GROUP != I/O && IS_PRIMITIVE==1 && PRIMITIVE_LEVEL !=INTERNAL } -of_object [get_pins -filter {DIRECTION==IN} -of_objects [get_nets -hierarchical -filter {PARENT=="scpu/pc/CurPC_reg[7]_89[0]"}]]]
+resize_pblock [get_pblocks {CLKAG_scpu/pc/CurPC_reg[7]_89[0]}] -add {CLOCKREGION_X0Y0:CLOCKREGION_X0Y0}
+#endgroup
+
+# Clock net "scpu/pc/CurPC_reg[7]_91[0]" driven by instance "scpu/pc/ram_reg[4][7]_i_2" located at site "SLICE_X39Y11"
+#startgroup
+create_pblock {CLKAG_scpu/pc/CurPC_reg[7]_91[0]}
+add_cells_to_pblock [get_pblocks  {CLKAG_scpu/pc/CurPC_reg[7]_91[0]}] [get_cells -filter { PRIMITIVE_GROUP != I/O && IS_PRIMITIVE==1 && PRIMITIVE_LEVEL !=INTERNAL } -of_object [get_pins -filter {DIRECTION==IN} -of_objects [get_nets -hierarchical -filter {PARENT=="scpu/pc/CurPC_reg[7]_91[0]"}]]]
+resize_pblock [get_pblocks {CLKAG_scpu/pc/CurPC_reg[7]_91[0]}] -add {CLOCKREGION_X0Y0:CLOCKREGION_X0Y0}
+#endgroup
+
+# Clock net "scpu/pc/CurPC_reg[7]_93[0]" driven by instance "scpu/pc/ram_reg[5][7]_i_2" located at site "SLICE_X39Y22"
+#startgroup
+create_pblock {CLKAG_scpu/pc/CurPC_reg[7]_93[0]}
+add_cells_to_pblock [get_pblocks  {CLKAG_scpu/pc/CurPC_reg[7]_93[0]}] [get_cells -filter { PRIMITIVE_GROUP != I/O && IS_PRIMITIVE==1 && PRIMITIVE_LEVEL !=INTERNAL } -of_object [get_pins -filter {DIRECTION==IN} -of_objects [get_nets -hierarchical -filter {PARENT=="scpu/pc/CurPC_reg[7]_93[0]"}]]]
+resize_pblock [get_pblocks {CLKAG_scpu/pc/CurPC_reg[7]_93[0]}] -add {CLOCKREGION_X0Y0:CLOCKREGION_X0Y0}
+#endgroup
+
+# Clock net "scpu/pc/CurPC_reg[7]_95[0]" driven by instance "scpu/pc/ram_reg[6][7]_i_2" located at site "SLICE_X36Y22"
+#startgroup
+create_pblock {CLKAG_scpu/pc/CurPC_reg[7]_95[0]}
+add_cells_to_pblock [get_pblocks  {CLKAG_scpu/pc/CurPC_reg[7]_95[0]}] [get_cells -filter { PRIMITIVE_GROUP != I/O && IS_PRIMITIVE==1 && PRIMITIVE_LEVEL !=INTERNAL } -of_object [get_pins -filter {DIRECTION==IN} -of_objects [get_nets -hierarchical -filter {PARENT=="scpu/pc/CurPC_reg[7]_95[0]"}]]]
+resize_pblock [get_pblocks {CLKAG_scpu/pc/CurPC_reg[7]_95[0]}] -add {CLOCKREGION_X1Y0:CLOCKREGION_X1Y0}
+#endgroup
+
+# Clock net "scpu/pc/CurPC_reg[7]_97[0]" driven by instance "scpu/pc/ram_reg[7][7]_i_2" located at site "SLICE_X37Y22"
+#startgroup
+create_pblock {CLKAG_scpu/pc/CurPC_reg[7]_97[0]}
+add_cells_to_pblock [get_pblocks  {CLKAG_scpu/pc/CurPC_reg[7]_97[0]}] [get_cells -filter { PRIMITIVE_GROUP != I/O && IS_PRIMITIVE==1 && PRIMITIVE_LEVEL !=INTERNAL } -of_object [get_pins -filter {DIRECTION==IN} -of_objects [get_nets -hierarchical -filter {PARENT=="scpu/pc/CurPC_reg[7]_97[0]"}]]]
+resize_pblock [get_pblocks {CLKAG_scpu/pc/CurPC_reg[7]_97[0]}] -add {CLOCKREGION_X0Y0:CLOCKREGION_X0Y0 CLOCKREGION_X1Y0:CLOCKREGION_X1Y0}
+#endgroup
+
+# Clock net "scpu/pc/CurPC_reg[7]_99[0]" driven by instance "scpu/pc/ram_reg[8][7]_i_2" located at site "SLICE_X41Y20"
+#startgroup
+create_pblock {CLKAG_scpu/pc/CurPC_reg[7]_99[0]}
+add_cells_to_pblock [get_pblocks  {CLKAG_scpu/pc/CurPC_reg[7]_99[0]}] [get_cells -filter { PRIMITIVE_GROUP != I/O && IS_PRIMITIVE==1 && PRIMITIVE_LEVEL !=INTERNAL } -of_object [get_pins -filter {DIRECTION==IN} -of_objects [get_nets -hierarchical -filter {PARENT=="scpu/pc/CurPC_reg[7]_99[0]"}]]]
+resize_pblock [get_pblocks {CLKAG_scpu/pc/CurPC_reg[7]_99[0]}] -add {CLOCKREGION_X0Y0:CLOCKREGION_X0Y0 CLOCKREGION_X1Y0:CLOCKREGION_X1Y0}
+#endgroup
+
+# Clock net "scpu/pc/E[0]" driven by instance "scpu/pc/newPC_reg[7]_i_2" located at site "SLICE_X61Y19"
+#startgroup
+create_pblock {CLKAG_scpu/pc/E[0]}
+add_cells_to_pblock [get_pblocks  {CLKAG_scpu/pc/E[0]}] [get_cells -filter { PRIMITIVE_GROUP != I/O && IS_PRIMITIVE==1 && PRIMITIVE_LEVEL !=INTERNAL } -of_object [get_pins -filter {DIRECTION==IN} -of_objects [get_nets -hierarchical -filter {PARENT=="scpu/pc/E[0]"}]]]
+resize_pblock [get_pblocks {CLKAG_scpu/pc/E[0]}] -add {CLOCKREGION_X1Y0:CLOCKREGION_X1Y0}
+#endgroup
